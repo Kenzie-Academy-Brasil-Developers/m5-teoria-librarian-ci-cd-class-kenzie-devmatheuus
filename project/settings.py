@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["librarians-ci-cd.herokuapp.com", "localhost"]
+ALLOWED_HOSTS = ["librarian-ci-cd.herokuapp.com", "localhost"]
 
 DJANGO_APPS = [
     "django.contrib.admin",
